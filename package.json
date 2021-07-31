@@ -1,0 +1,22 @@
+{
+  "name": "solidity-101",
+  "version": "1.0.0",
+  "description": "First solidity smart contracts",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mcdaddy-2pointoh/Solidity-101.git"
+  },
+  "author": "Mcdaddy-2pointoh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mcdaddy-2pointoh/Solidity-101/issues"
+  },
+  "homepage": "https://github.com/Mcdaddy-2pointoh/Solidity-101#readme",
+  "dependencies": {
+    "solc": "^0.8.6"
+  }
+}
