@@ -10,4 +10,4 @@ const inboxPath = path.resolve(__dirname, "Contracts", "inbox.sol");
 const sourceFile = fs.readFileSync(inboxPath, "utf8");
 
 // Compiling the solidity contract
-module.export = solc.compile(sourceFile, 1).contracts[":Inbox"];
+module.exports = solc.compile(sourceFile, 1).contracts[":Inbox"];
